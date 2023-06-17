@@ -1,0 +1,62 @@
+.main-footer {
+    border-top: 1px solid var(--clrPrimary2);
+    background-color: var(--clrPrimary5);
+}
+
+.main-footer .logo {
+    margin-block-start: 80px;
+    margin-block-end: 0.8em;
+    font-family: eurofurence;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    color: var(--clrPrimary-5);
+
+    font-weight: 400;
+}
+.main-footer small{
+    font-size: 0.8125em;
+    color: var(--clrPrimary-1);
+    letter-spacing: 0.03em;
+    margin-block-end: 2.9230769em;
+}
+
+.main-footer small a{
+    color: #939292;
+font-weight: 700;
+text-decoration: none;
+}
+
+.main-footer small a:hover{
+    text-decoration: underline;
+}
+
+.main-footer .social-links{
+margin-block-end: 80px;
+}
+.main-footer .social-links .sm-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clrPrimary3);
+    width: 40px;
+    height: 40px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+
+.main-footer .sm-link.fa:hover{
+background-color: var(--clrFacebook);
+}
+.main-footer .sm-link.tw:hover{
+    background-color: var(--clrTwitter);
+}
+.main-footer .sm-link.be:hover{
+    background-color: var(--clrBehance);
+}
+.main-footer .sm-link.dr:hover{
+    background-color: var(--clrDribbble);
+}
+
+.main-footer .social-links .sm-link img{
+width: 14px;
+}

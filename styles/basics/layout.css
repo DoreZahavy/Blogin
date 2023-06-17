@@ -1,0 +1,34 @@
+.main-layout {
+    display: grid;
+
+    grid-template-columns: 
+        minmax(20px, 1fr) minmax(auto, var(--s)) minmax(20px, 1fr);
+        /* 20px 1fr 20px; */
+
+}
+
+.main-layout > *:not(.full) {
+    grid-column: 2;
+}
+
+.main-layout > *.full {
+    grid-column: 1 / -1;
+}
+  
+/* CARD */
+
+
+
+.card-layout {
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 50px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+/* general */
+* {
+    box-sizing: border-box;
+}
+
+/* tags */
+html {
+    
+    font-family: lato-regular, sans-serif;
+    /* line-height: 1.71428571; */
+}
+
+body {
+    margin: 0;
+    background-color: var(--clrPrimary6);
+    /* font-size: 0.875rem; */
+}
+
+img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.main-content{
+    border-left: 1px solid var(--clrPrimary2);
+    border-right: 1px solid var(--clrPrimary2);
+}
+

@@ -1,0 +1,37 @@
+:root {
+    /* pallete */
+
+    --clrPrimary6: #ffffff; /* BG */
+    --clrPrimary5: #f8f8f8;
+    --clrPrimary4: #f2f2f2;
+    --clrPrimary3: #e5e5e5;
+    --clrPrimary2: #e1e0e0;
+    --clrPrimary1: #c2c2c2;
+    --clrPrimaryBase: #c2c1c1;
+    --clrPrimary-1: #a6a6a6;
+    --clrPrimary-2: #818181;
+    --clrPrimary-3: #606060;
+    --clrPrimary-4: #4f4e4e;
+    --clrPrimary-5: #292929; /* Header */
+    --clrPrimary-6: #1e1e1e;
+    
+   
+
+
+    --clrActive: #58c93a;
+
+    --clrFacebook: #516fad;
+    --clrTwitter: #1DA1F2;
+    --clrBehance: #0077ff;
+    --clrDribbble: #EA4C89;
+
+    /* layout */
+    --layout-padding-hor: 80px;
+    --layout-padding-ver: 50px;
+
+    /* bp */
+
+    --l: 980px;
+    --m: 760px;
+    --s: 600px;
+}
